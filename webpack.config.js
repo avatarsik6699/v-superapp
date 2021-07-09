@@ -157,7 +157,7 @@ module.exports = env => {
       new HtmlWebpackPlugin({
         title: 'v-slider',
         filename: 'index.html',
-        template: path.resolve(__dirname, 'src/index.pug'),
+        template: path.resolve(__dirname, 'src/index.html'),
         minify: {
           removeComments: env.production,
           collapseWhiteSpace: env.production,
